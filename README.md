@@ -11,3 +11,9 @@ A Refills-like Rails Gem for the U.S Digital Services Web Design Standards
 * Import a specific component with `rails generate wds:import SNIPPET`
 
 Imported snippets' partials are copied to `app/views/wds`, stylesheets are copied to `app/assets/stylesheets/wds`, and JavaScript is copied to `app/assets/javascripts/wds`
+
+# Octobuild 2015
+This project is a submission to [Octobuild](http://octobuild.com) 2015.
+
+# License
+This project is MIT Licensed
