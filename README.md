@@ -19,6 +19,3 @@ Imported snippets' partials are copied to `app/views/wds`, stylesheets are copie
 
 ## Octobuild 2015
 This project is a submission to [Octobuild](http://octobuild.com) 2015.
-
-## License
-This project is MIT Licensed
