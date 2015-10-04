@@ -67,5 +67,14 @@ module Wds
     def javascript_name
       "#{snippet.underscore}.#{javascript_extension}"
     end
+
+    def javascript_path
+      File.join(
+        "javascripts",
+        "refills",
+        javascript_name
+      )
+    end
+
   end
 end
