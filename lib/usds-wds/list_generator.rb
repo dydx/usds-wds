@@ -8,14 +8,14 @@ module Wds
       puts 'Available Components'
       puts '===================='
 
-      stylesheets.each do |filename|
-        puts '-' + filename.gsub(/_|\.scss/, '')
+      components.each do |filename|
+        puts '-' + filename.gsub(/_|\.erb/, '')
       end
     end
 
     private
-    def stylesheets
-      wds_components_dir = File.expand_path('../../../source/stylesheets/wds', __FILE__)
+    def components
+      wds_components_dir = File.expand_path('../../../source', __FILE__)
       stylesheets = Dir.entries(wds_components_dir)
       stylesheets.reject {|f| f == '.' || f == '..' }
     end
