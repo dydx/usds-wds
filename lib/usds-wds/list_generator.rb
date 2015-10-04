@@ -65,7 +65,7 @@ module Wds
     end
 
     def javascript_name
-      "#{snippet.underscore}.#{javascript_extension}"
+      "#{snippet.underscore}.js"
     end
 
     def javascript_path
