@@ -22,4 +22,6 @@ This project is a submission to [Octobuild](http://octobuild.com) 2015.
 
 ## Progress
 * Finished including SCSS
-* Still working on importing all of the example templates
+* Finished including ERB templates
+* Finished `list` feature
+* Working on `import` feature (able to import ERB, still working on SASS and JS)
