@@ -1,6 +1,6 @@
 require 'rails/generators'
 
-module USDSWDS
+module Wds
   class ListGenerator < Rails::Generators::Base
     desc 'List WDS Components'
 
@@ -15,7 +15,7 @@ module USDSWDS
 
     private
     def stylesheets
-      wds_components_dir = File.expand_path('../../source/stylesheets/wds', __FILE__)
+      wds_components_dir = File.expand_path('../source/stylesheets/wds', __FILE__)
       stylesheets = Dir.entries(wds_components_dir)
       stylesheets.reject {|f| f == '.' || f == '..' }
     end
