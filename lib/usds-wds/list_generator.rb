@@ -71,7 +71,7 @@ module Wds
     def javascript_path
       File.join(
         "javascripts",
-        "refills",
+        "wds",
         javascript_name
       )
     end
