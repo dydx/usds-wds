@@ -9,7 +9,7 @@ module Wds
       puts '===================='
 
       components.each do |filename|
-        puts '-' + filename.gsub(/_|\.html.erb/, '')
+        puts '- ' + filename.gsub(/_|\.html.erb/, '')
       end
     end
 
